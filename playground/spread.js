@@ -25,6 +25,6 @@ console.log(greetings(...personTwo));
 var names = ['Mike', 'Ben'];
 var final = ['Jose', ...names];
 // Loop Hi Jose
-final.forEach(function (final) {
-  return `Hi ${name}`;
+final.forEach(function (name) {
+  console.log(`Hi ${name}`);
 });
